@@ -1,0 +1,6 @@
+Tabelas disponíveis:
+
+1. customers (customer_id, name, city, signup_date)
+2. sales (id, customer_id, sale_value, sale_date)
+
+Relacionamento: sales.customer_id → customers.customer_id
